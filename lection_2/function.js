@@ -246,21 +246,4 @@
 // console.log( curriedSum(1)(2) ); // 3
 
 
-// for (var i = 0; i < 10; i++) {
-//     (function (k) {
-//         setTimeout(()=> {
-//             console.log(k)
-//         }, 1000)
-//     })(i)
-// }
 
-
-// for(let i = 0; i < 10; i++) setTimeout(() => console.log(i), 1000)
-
-
-
-var obj = {
-    greet: function() {
-        console.log('Hello!');
-    }
-};
