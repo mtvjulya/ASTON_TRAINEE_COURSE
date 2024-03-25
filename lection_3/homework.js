@@ -82,5 +82,29 @@
 
 // Подсказка - ответ найдете в 5 ссылке README
 
+// 5
+//Исправьте cтроку(***), чтобы всё работало (других строк изменять не надо, кроме password, чтобы проверить if else).
+//
+// function askPassword(ok, fail) {
+//   let password = 'rockstar2'
+//   if (password == "rockstar") ok();
+//   else fail();
+// }
+//
+// let user = {
+//   name: 'Вася',
+//
+//   loginOk() {
+//     console.log(`${this.name} logged in`);
+//   },
+//
+//   loginFail() {
+//     console.log(`${this.name} failed to log in`);
+//   },
+//
+// };
+//
+// askPassword(user.loginOk, user.loginFail) //***;
+
 
 
