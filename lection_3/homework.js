@@ -62,18 +62,15 @@
 // obj.showLastName.bind({ lastName: 'Boris' })(); // ?
 
 // 4
-// function test() {
-//     console.log(this.name)
-// }
-//
-// const user = {
-//     name: 'Mike',
-//     fn: test
-// }
-//
-// const fn = user.fn.bind(user)
-//
-// setTimeout(fn, 1000)
+
+const user = {
+    name: 'Mike',
+    fn: function () {
+        console.log(this.name)
+    }
+}
+
+setTimeout(user.fn, 1000)
 
 
 
