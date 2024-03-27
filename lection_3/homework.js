@@ -70,7 +70,7 @@ const user = {
     }
 }
 
-setTimeout(user.fn, 1000)
+setTimeout(user.fn.bind(user), 1000)
 
 
 
